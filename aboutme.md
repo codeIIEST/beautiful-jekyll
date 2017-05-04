@@ -1,16 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About CodeIIEST
+subtitle: Who we are
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+CodeIIEST is one of the newest clubs of IIEST Shibpur. Formed in Nov'14 , the club has been actively involved in cultivating better programming skills among the students. The club constitutes of various enthusiasts and is a wonderful hub for a plethora of informative and interactive sessions. The students keep themselves updated with the emerging technologies, which further help them strengthen their skills and enhance creativity and innovation.
