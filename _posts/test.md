@@ -1,8 +1,9 @@
 ---
-layout: test
-title: test
-subtitle: test
+layout: post
+title: First post!
+image: /img/hello_world.jpeg
+
 ---
 
 
-#Hello
+## Sorting
