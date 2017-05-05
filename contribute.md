@@ -13,7 +13,7 @@ There are a number of ways to make your voice heard and we would love to hear fr
 * Join the gitter room for a chat with us.
 * Send us an email over our mail id.
 
-<iframe src="https://gitter.im/codeIIEST" style="border:0; width:100%; height:100%;"></iframe>
+
 
 
 
@@ -30,4 +30,7 @@ If you are unfamiliar with Git and GitHub our git tutorial provides a sample wor
 
 We have a chat room on gitter which will open directly in your browser, or use the embedded client below.
 Stop by and say hello. Talk with the codeIIESTians and get started.
+
+<iframe src="https://gitter.im/codeIIEST" style="border:0; width:100%;"></iframe>
+
 
