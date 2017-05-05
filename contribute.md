@@ -19,7 +19,7 @@ There are a number of ways to make your voice heard and we would love to hear fr
 If you are interested in contributing fixes, code then you are welcome.
 To get started create an account on github and fork codeIIEST then submit your changes via a pull request.
 If you are unfamiliar with Git and GitHub our git tutorial provides a sample workflow but you can also find lots of tutorials online.
- You can browse our ![issue list](https://github.com/codeIIEST/Algorithms/issues)  to find something that you can tackle. 
+ You can browse our ![issue list] (https://github.com/codeIIEST/Algorithms/issues)  to find something that you can tackle. 
  Please send a quick email or stop by the chat room to let people know what you are planning or working on.
 
 
@@ -28,4 +28,4 @@ If you are unfamiliar with Git and GitHub our git tutorial provides a sample wor
 We have a chat room on gitter which will open directly in your browser, or use the embedded client below.
 Stop by and say hello. Talk with the codeIIESTians and get started.
 
-<iframe width = "100%" src="https://gitter.im/codeIIEST/Algorithms?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"></iframe>
+<iframe width = "100%" height = "100%" src="https://gitter.im/codeIIEST/Algorithms?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"></iframe>
