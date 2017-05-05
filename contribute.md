@@ -28,4 +28,4 @@ If you are unfamiliar with Git and GitHub our git tutorial provides a sample wor
 We have a chat room on gitter which will open directly in your browser, or use the embedded client below.
 Stop by and say hello. Talk with the codeIIESTians and get started.
 
-<iframe width = "100%" height = "100px" src="https://gitter.im/codeIIEST"></iframe>
+<iframe src="https://gitter.im/codeIIEST"></iframe>
