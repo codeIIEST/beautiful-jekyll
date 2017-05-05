@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cryptography
-image: /img/hello_world.jpeg
+image: /img/code2.jpg
 ---
 
 ## Cryptography
