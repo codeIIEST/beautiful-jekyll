@@ -7,7 +7,7 @@ subtitle: Open Source is fun
 
 ## Provide Feedback
 
-We could always use more voices and opinions in the discussions about SunPy and its development from both users and developers. 
+We could always use more voices and opinions in the discussions about codeIIEST and its development from both users and developers. 
 You may want to suggest a new feature or gripe about how something is not working how you think it should. 
 There are a number of ways to make your voice heard and we would love to hear from you.
 * Join the gitter room for a chat with us.
