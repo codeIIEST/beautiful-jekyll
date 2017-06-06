@@ -1,7 +1,7 @@
 # --- General options --- #
 
 
-url: "https://codeiiest.github.io/aboutme"
+url: "https://codeiiest.github.io"
 baseurl: ""
 
 
@@ -15,7 +15,7 @@ description: Coding club of IIEST Shibpur
 
 # List of links in the navigation bar
 navbar-links:
-  About: "http://codeIIEST.github.io"
+  About: "http://codeiiest.github.io"
   Achievements: "achieve"
   Chapters:
      - Competitive Coding: "comcode"
@@ -23,7 +23,7 @@ navbar-links:
      - Bootstrap Chapter: "Bootstrap"
      - Turing Chapter: "Turing"
     
-  Blog: "blog" 
+  Blog: blog.html 
   Contribute: "contribute"
   
   Code: "https://github.com/codeIIEST"
