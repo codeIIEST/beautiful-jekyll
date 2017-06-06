@@ -15,7 +15,7 @@ description: Coding club of IIEST Shibpur
 
 # List of links in the navigation bar
 navbar-links:
-  About: "http://codeiiest.github.io"
+  Home: "index"
   Achievements: "achieve"
   Chapters:
      - Competitive Coding: "comcode"
@@ -23,7 +23,7 @@ navbar-links:
      - Bootstrap Chapter: "Bootstrap"
      - Turing Chapter: "Turing"
     
-  Blog: blog.html 
+  Blog: /blog.html 
   Contribute: "contribute"
   
   Code: "https://github.com/codeIIEST"
