@@ -1,8 +1,8 @@
 # --- General options --- #
 
 
-url: "https://codeiiest.github.io"
-baseurl: "/home/"
+url: "https://codeiiest.github.io/home/"
+baseurl: "https://codeiiest.github.io/home/"
 
 
 # Name of website
