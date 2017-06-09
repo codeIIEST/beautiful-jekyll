@@ -23,7 +23,7 @@ navbar-links:
      - Bootstrap Chapter: "Bootstrap"
      - Turing Chapter: "Turing"
     
-  Blog: "blog"
+  Blog: blog.html
   
   Contribute: "contribute"
   
