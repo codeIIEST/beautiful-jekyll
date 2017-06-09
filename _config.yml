@@ -1,8 +1,8 @@
 # --- General options --- #
 
 
-url: "https://codeiiest.github.io/"
-baseurl: "home"
+url: "https://codeiiest.github.io"
+baseurl: ""
 
 
 # Name of website
@@ -15,7 +15,7 @@ description: Coding club of IIEST Shibpur
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "home"
+  Home: "index"
   Achievements: "achieve"
   Chapters:
      - Competitive Coding: "comcode"
@@ -23,7 +23,7 @@ navbar-links:
      - Bootstrap Chapter: "Bootstrap"
      - Turing Chapter: "Turing"
     
-  Blog: "https://codeiiest.github.io"
+  Blog: "blog.html"
   
   Contribute: "contribute"
   
