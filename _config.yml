@@ -23,7 +23,7 @@ navbar-links:
      - Bootstrap Chapter: "Bootstrap"
      - Turing Chapter: "Turing"
     
-  Blog: blog.html
+  Blog: "http://codeiiest.github.io/Algorithms/"
   
   Contribute: "contribute"
   
