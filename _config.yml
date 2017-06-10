@@ -16,7 +16,7 @@ description: Coding club of IIEST Shibpur
 # List of links in the navigation bar
 navbar-links:
   Home: "index"
-  Achievements: "achieve"
+  #Achievements: "achieve"
   Chapters:
      - Competitive Coding: "comcode"
      - Linus Chapter: "Linus"
