@@ -6,7 +6,7 @@ image: /img/codeiiest.jpg
 ---
 
  
-<div style="text-align:center" markdown="1">
+<div style="text-align:right" markdown="1">
 
 ![](https://qph.ec.quoracdn.net/main-qimg-44a4d3059230a6b5f374511233b37d71-c)
 
