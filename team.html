@@ -1,0 +1,484 @@
+<!-- author @Rahul Indra -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Team</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta charset="utf-8">
+        <meta name="author" content="Harry Boo">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="assets/img/logo/favicon.png">
+        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+
+        <!-- Load Core CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/core/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/core/animate.min.css">
+
+        <!-- Load Main CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/main/main.css">
+        <link rel="stylesheet" href="assets/css/main/setting.css">
+        <link rel="stylesheet" href="assets/css/main/hover.css">
+
+        <!-- Load Magnific Popup CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/magnific/magic.min.css">
+        <link rel="stylesheet" href="assets/css/magnific/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/magnific/magnific-popup-zoom-gallery.css">
+
+        <!-- Load OWL Carousel CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
+
+        <!-- Load Color CSS - Please uncomment to apply the color.
+        =====================================
+        -->
+        <link rel="stylesheet" href="assets/css/color/pasific.css">
+
+        <!-- Load Fontbase Icons - Please Uncomment to use linea icons
+        =====================================
+        -->
+        <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
+
+
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+    $(document).ready(function(){
+        $(".button").click(function(){
+            var value = $(this).attr("data-filter");
+            if (value == "all")
+            {
+                $(".filter").show("1000");
+            }
+            else
+            {
+                $(".filter").not("."+value).hide("1000");
+                $(".filter").filter("."+value).show("1000");
+            }
+        })
+    })
+
+</script>
+    </head>
+    <body  id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
+
+        <!-- Navigation Area
+        ===================================== -->
+        <nav class="navbar navbar-pasific navbar-op navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html" onclick="parent.location='index.html'"><img src="assets/img/logo/logo-default.png" width=30px height=30px alt="logo">CodeIIEST</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse navbar-right">
+                    <ul class="nav navbar-nav mr20">
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <li><a href="index.html#welcome" onclick="parent.location='index.html#welcome'"">About</a></li>
+                        <li><a href="index.html#fields" onclick="parent.location='index.html#fields'">Chapters</a></li>
+                        <li><a href="team.html" onclick="parent.location='team.html'">Team</a></li>
+                        <li><a href="index.html#portfolioGrid" onclick="parent.location='index.html#portfolioGrid'">Mentors</a></li>
+                        <li><a href="index.html#contact" onclick="parent.location='index.html#contact'">Contact</a></li>
+			</ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="team" class="bg-dark3 pt75">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="font-size-normal color-light">
+                            <small class="color-pasific alpha10"></small>
+                            Smart Team
+                            <small class="heading heading-solid center-block"></small>
+                        </h1>
+                    </div>
+
+                    <section><!--main-section-start-->
+        <div id="containr">
+    <center>
+        
+            <button class="button" data-filter="current">Current Team</button></a>&nbsp;
+            <button class="button" data-filter="alumini">Alumini</a></button>&nbsp;
+            <button class="button" data-filter="cc">Competitive Coding</a></button><br><br>&nbsp;
+            <button class="button" data-filter="ml">Machine Learning</a></button>&nbsp;
+            <button class="button" data-filter="sec">Computer Security</a></button>&nbsp;
+            <button class="button" data-filter="opensrc">Open Source Community</a></button>&nbsp;
+            <button class="button" data-filter="mng">Managerial Positions</a></button>&nbsp;
+            <button class="button" data-filter="dev">Software Development</a></button>&nbsp;
+            
+            
+            
+    </center>        
+    </div>
+                    
+                    
+                    <div class="box filter opensrc">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>PRATEEK CHANDA<small class="color-light alpha7">Open Source Community<br><br></small></h5>
+                                <img src="assets/img/team/prateek.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    
+                                    <a href="https://www.facebook.com/prateek.chanda.1"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/prateek-chanda-iiest/"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/prateekiiest"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                    </div> 
+                    <div class="box filter sec dev current mng">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 alumini">        
+                            <div class="team team-four bg-cyan">
+                                <h5>RAHUL INDRA<small class="color-light alpha7">Computer Security & General Secretary
+                                </small></h5>
+                                <img src="assets/img/team/rahul.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/RahulIndra12"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/in/indrarahul2013/"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.github.com/indrarahul2013/"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="box filter cc current mng">
+                        <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-pasific ">
+                                <h5>ANKIT KUMAR GIRI<small class="color-light alpha7">Competitive Coding & <br>Ass. General Secretary<br></small></h5>
+                                <img src="assets/img/team/ankit.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/peace.247ankit"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/ankit-kumar-giri-760805165/"><i class="fa fa-linkedin"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box filter ml current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 alumini">
+                            <div class="team team-four bg-blue">
+                                <h5>ANKIT TAXAK<small class="color-light alpha7">Machine Learning<br><br>
+                                </small></h5>
+                                <img src="assets/img/team/ankitt.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/ankit.taxak.9"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://github.com/ankittaxak5717"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                    
+
+                    <div class="box filter cc current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>VIRALI VORA<small class="color-light alpha7">Competitive Coding<br><br></small></h5>
+                                <img src="assets/img/team/virali.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/virali.vora.9"><i class="fa fa-facebook"></i></a>
+                                    
+                                    <a href="https://github.com/viralivora"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                    </div>  
+
+                    <div class="box filter ml current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>RUPKATHA HIRA<small class="color-light alpha7">Machine Learning<br><br></small></h5>
+                                <img src="assets/img/team/rup.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://www.linkedin.com/in/rupkatha-hira-865b59150/"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/Rupkatha"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                    </div>  
+                    
+                           <div class="box filter ml current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>UJJWAL SUDEV<small class="color-light alpha7">Machine Learning<br><br></small></h5>
+                                <img src="assets/img/team/ujjwal.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    
+                                    <a href="https://www.facebook.com/ujjwal.sudeo"><i class="fa fa-facebook"></i></a>
+                                   
+                                    
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+
+                    <div class="box filter ml current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>SHREEYANT SINHA<small class="color-light alpha7">Machine Learning<br><br></small></h5>
+                                <img src="assets/img/team/shree.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    
+                                    <a href="https://www.facebook.com/shreeyant"><i class="fa fa-facebook"></i></a>
+                                   
+                                    
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+
+                    <div class="box filter ml cc current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>MANISH KUMAR<small class="color-light alpha7">Machine Learning<br><br></small></h5>
+                                <img src="assets/img/team/manish.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                                    <a href="https://www.facebook.com/mk.tesla"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/manish-kumar-276511148/"><i class="fa fa-linkedin"></i></a>
+                                    <!-- <a href="#"><i class="fa fa-github"></i></a> -->
+                                </div>
+                            </div>
+                    </div>
+                    </div>  
+
+                    <div class="box filter cc current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>ANUNAY KUMAR<small class="color-light alpha7">Competitive Coding<br><br></small></h5>
+                                <img src="assets/img/team/anunay.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                  
+                                    <a href="https://www.facebook.com/anunay.kumar.5205"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/anunay-kumar-16b7b9152/"><i class="fa fa-linkedin"></i></a>
+                                   
+                                </div>
+                            </div>
+                    </div>
+                    </div>  
+
+                    <div class="box filter dev cc current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>HIMANSHU PANDEY<small class="color-light alpha7">Web Developer<br><br></small></h5>
+                                <img src="assets/img/team/himanshu.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    
+                                    <a href="https://www.facebook.com/profile.php?id=100007296848247"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/himanshu-pandey-87144012a/"><i class="fa fa-linkedin"></i></a>
+                                    
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                    
+                    <div class="box filter cc current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>ARIJIT SAHA<small class="color-light alpha7">Competitive Coding<br><br></small></h5>
+                                <img src="assets/img/team/arijit.png" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    
+                                    <a href="https://www.facebook.com/ArijitRox"><i class="fa fa-facebook"></i></a>
+                                   
+                                    
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+
+                    <div class="box filter mng">
+                        <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-pasific ">
+                                <h5>MOHANEE DAMMU<small class="color-light alpha7">Treasurer<br><br></small></h5>
+                                <img src="assets/img/team/mohanee.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/mohanee.dammu"><i class="fa fa-facebook"></i></a>
+                                                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    
+                    <div class="box filter cc alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>MAYANK KUMAR<small class="color-light alpha7">Competitive Coding<br><br><br></small></h5>
+                                <img src="assets/img/team/mayank.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                                    <a href="https://www.facebook.com/darkcode.manumeral"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/mayank8/"><i class="fa fa-linkedin"></i></a>
+                                    <!-- <a href="#"><i class="fa fa-github"></i></a> -->
+                                </div>
+                            </div>
+                    </div>
+                    </div>  
+
+                    <div class="box filter cc alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>SANDEEP KUMAR<small class="color-light alpha7">Competitive Coding<br><br><br></small></h5>
+                                <img src="assets/img/team/sandeep.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                                    <a href="https://www.facebook.com/sandeep.gprs"><i class="fa fa-facebook"></i></a>
+                                    <!-- <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-github"></i></a> -->
+                                </div>
+                            </div>
+                    </div>
+                    </div>  
+                
+                <div class="box filter cc alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>ANKIT CHOUDHARY<small class="color-light alpha7">Competitive Coding<br><br><br></small></h5>
+                                <img src="assets/img/team/ankitch.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                                    <a href="https://www.facebook.com/ankitchoudhary2008"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/ankit-choudhary-b294a532/"><i class="fa fa-linkedin"></i></a>
+                                    <!-- <a href="#"><i class="fa fa-github"></i></a> -->
+                                </div>
+                            </div>
+                    </div>
+                    </div>  
+                    <div class="box filter cc alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>NILANJANA LODH<small class="color-light alpha7">Competitive Coding<br><br><br></small></h5>
+                                <img src="assets/img/team/nilanjana.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                                    <a href="https://www.facebook.com/nilanjanalodh.trisha"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/nilanjana-lodh/"><i class="fa fa-linkedin"></i></a>
+                                    <!-- <a href="#"><i class="fa fa-github"></i></a> -->
+                                </div>
+                            </div>
+                    </div>
+                    </div>  
+
+                    
+                    
+
+                    <div class="box filter sec alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>ARUN SHREEVASTAVA<small class="color-light alpha7">Computer Security<br><br><br></small></h5>
+                                <img src="assets/img/team/arun.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    
+                                    <a href="https://www.facebook.com/arunkr9088"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/arun-kumar-shreevastava-77b305136/"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/arunKumarNOP"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                    </div>  
+                    
+                    <div class="box filter ml alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>SAPTARASHMI BANDYOPADHYAY<small class="color-light alpha7">Machine Learning</small></h5>
+                                <img src="assets/img/team/sapt.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/saptarashmi.bandyopadhyay"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/saptarashmi-bandyopadhyay-272999ba/"><i class="fa fa-linkedin"></i></a>
+                                    <!-- <a href="#"><i class="fa fa-github"></i></a> -->
+                                </div>
+                            </div>
+                    </div>
+                    </div> 
+                    
+                    
+                            
+                </div>
+                <br><br>
+            </div><!-- container end -->
+        </div><!-- section team end -->
+</section>
+
+        
+
+
+                </div>
+                <br><br>
+            </div><!-- container end -->
+        </div><!-- section team end -->
+        </section>
+
+        <div id="footer" class="footer-two pt50 bg-black">
+  
+
+            <div class="container-fluid pt20">
+                <div class="container">
+                    <div class="row">
+			
+			<center>
+			<div class="social social-two">
+                                <a href="https://twitter.com/codeiiest"><i class="fa fa-twitter color-gray"></i></a>
+                                <a href="https://www.facebook.com/CodeIIEST/"><i class="fa fa-facebook color-gray"></i></a>
+                                <a href="https://github.com/codeIIEST"><i class="fa fa-github color-gray"></i></a>
+			</div><br>                   
+			<div>
+                            <p><a href="#" style="color:white;font-size:1em;">Copyright © 2018 CodeIIEST</a></p>
+                        </div>
+			</center>
+                    </div><!-- row end -->
+                </div><!-- container end -->
+            </div><!-- container-fluid end -->
+        </div><!-- footer end -->
+
+        <!-- JQuery Core
+        =====================================-->
+        <script src="assets/js/core/jquery.min.js"></script>
+        <script src="assets/js/core/bootstrap.min.js"></script>
+
+        <!-- Magnific Popup
+        =====================================-->
+        <script src="assets/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/magnific-popup/magnific-popup-zoom-gallery.js"></script>
+
+        <!-- Progress Bars
+        =====================================-->
+        <script src="assets/js/progress-bar/bootstrap-progressbar.js"></script>
+        <script src="assets/js/progress-bar/bootstrap-progressbar-main.js"></script>
+
+        <!-- Text Rotator
+        =====================================-->
+        <script src="assets/js/text-rotator/jquery.simple-text-rotator.min.js"></script>
+
+     
+        <!-- JQuery Main
+        =====================================-->
+        <script src="assets/js/main/jquery.appear.js"></script>
+        <script src="assets/js/main/isotope.pkgd.min.js"></script>
+        <script src="assets/js/main/parallax.min.js"></script>
+        <script src="assets/js/main/jquery.countTo.js"></script>
+        <script src="assets/js/main/owl.carousel.min.js"></script>
+        <script src="assets/js/main/jquery.sticky.js"></script>
+        <script src="assets/js/main/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/main/main.js"></script>
+
+    </body>
+</html>
